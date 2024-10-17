@@ -1,0 +1,20 @@
+package com.invetory.inventory.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
+public class InventoryDtoResponse {
+
+    private Long id;
+    private String itemName;
+    private Double quantity;
+    private String seriItem;
+    private String image;
+
+}
